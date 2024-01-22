@@ -1,0 +1,176 @@
+body
+{
+   
+   background: linear-gradient( hsl(207, 61%, 20%), hsl(207, 49%, 46%));
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.About
+{
+    color: white;
+}
+
+.story
+{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+
+
+header
+{
+    background-color: #00719c;
+    border-radius: 3px;
+    border-style: none;
+    padding: 0%;
+    width: 95%;
+    height: 10%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+   align-items: center;
+   margin: 20px;
+   justify-content: space-between;
+   display: flex;
+
+}
+
+.navbar a:hover
+{
+ color: black;
+
+}
+
+.navbar a{
+    margin-left: 30px;
+    font-family: 'Roboto';
+    color: white;
+    transition: 0.1s;
+}
+
+button:hover
+{
+    background-color: #00b8ff;
+   scale: 1.2;
+
+}
+
+button
+{
+   transform: scale(1.5,1.5);
+   border-radius: 2px;
+   margin-left: 40px;
+   margin-right: 40px;
+   border-style: none;
+   background-color: #00415a;
+   font-family: Roboto;
+   height: 25px;
+   color: white;
+
+   transition: 0.1s;
+   
+}
+
+
+
+aside {
+    flex: 1;
+    overflow-y: hidden;
+    border-radius: 10px;
+    background-color: #00415ac3;
+    
+}
+
+
+
+.image_container
+{
+    width: 90%;
+    height: 14vmin;
+    display: flex;
+    column-gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container img
+{
+    display: inline-block;
+    flex: 1;
+    overflow: auto;
+    transition: 0.1s;
+    border-radius: 3px;
+
+}
+
+.image_container img:hover
+{
+    opacity: 0.7;
+}
+
+.image_viewer img
+{
+   margin-top: 20px;
+}
+
+.Controls
+{
+    text-decoration: none;
+    color: white;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+.game-container {
+    width: 640px;
+    height: 380px;
+    background-color: #001f2b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.run-btn {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Saira';
+    color: white;
+    background-color: #056ecb;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    border-radius: 2px;
+    padding: 8px 15px 8px 12px;
+    transition: 0.12s;
+}

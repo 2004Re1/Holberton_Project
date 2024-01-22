@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartThumbnail</title>
+
+
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body class="works_on_smartphone">
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="https://apply.holbertonschool.com/holberton-logo.png" width="150px" style="margin: 20px;">
+        </a>
+
+
+        <nav class="navbar">
+
+            <a href="thumbnail.html" style="text-align: center;" class="bar">
+
+                SmartThumbnail
+            </a>
+
+            <a href="youtube.html" style="text-align: center;" class="bar">
+
+                YouTube
+            </a>
+
+            <a href=#about style="text-decoration:none" style="text-align: center;" class="bar">
+                About
+            </a>
+
+            <a href=#Gameplay style="text-decoration:none" style="text-align: center;" class="bar">
+                Gameplay
+            </a>
+
+            <a href="twitter.html" target="_blank" style="text-decoration:none" style="text-align: center;" class="bar">
+                Twitter
+            </a>
+
+
+
+            <a href=#game>
+                <button>Play Now</button>
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <h1>SmartThumbnail Example</h1>
+
+            <img src="https://images.pushsquare.com/ec16d2850c2cb/god-of-war-ragnarok-guide-walkthrough-all-collectibles-and-wiki-1.large.jpg" alt="" class="small" id="image">
+
+
+
+        </article>
+
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+                var disqus_config = function () {
+                    this.page.url = "http://13.38.40.45";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = "SmartThumbnail"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://bob-m3zpzly6wa.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Made by Revan Ramil for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.
+        </p>
+    </footer>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            let img = document.getElementById("image");
+            img.onclick = () => img.className = img.className == "" ? "small" : "";
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi my name anton</title>
+
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="behaviour.js"></script>
+
+</head>
+
+
+
+
+<body class="works_on_smartphone">
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="https://apply.holbertonschool.com/holberton-logo.png" width="150px" style="margin: 20px;">
+        </a>
+
+
+        <nav class="navbar">
+
+
+
+            <a href="thumbnail.html" style="text-align: center;" class="bar">
+
+                SmartThumbnail
+            </a>
+
+            <a href="youtube.html" style="text-align: center;" class="bar">
+
+                YouTube
+            </a>
+
+
+            <a href=#about style="text-decoration:none" style="text-align: center;" class="bar">
+                About
+            </a>
+
+            <a href=#Gameplay style="text-decoration:none" style="text-align: center;" class="bar">
+                Gameplay
+            </a>
+
+            <a href="twitter.html" style="text-decoration:none" style="text-align: center;" class="bar">
+                Twitter
+            </a>
+
+
+
+            <a href=#game>
+                <button>Play Now</button>
+            </a>
+
+        </nav>
+
+
+
+
+    </header>
+
+
+
+    <main>
+
+        <article>
+            <h1 id="about">Bob and Dmitri</h1>
+
+            <p class="About">
+                Bobby is stuck in a world full of filthy monsters and he probably can't beat them alone.<br> But luckily
+                he is not alone, his pal Dmitri has got him covered. How long can you stay alive<br> with ya boy Dmitri
+                ?
+            </p>
+            <br>
+            <p class="About">
+                This is an endless top down shooter game with growing difficulty and upgrades.<br> This game was
+                originally made for Brackeys game jam 2022.2 in one week
+            </p>
+
+
+
+
+            <a title="Cover of the game">
+                <img src="intro.png" height="400" width="600">
+            </a>
+
+
+            <h1 id="Gameplay">Gameplay</h1>
+
+            <ul>
+                <h2
+                    style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;  font-weight: 500; color: white;">
+                    Controls</h2><br>
+                <li class="Controls">WASD - Move</li>
+                <li class="Controls">Mouse - Aim</li>
+                <li class="Controls">LMB - Shoot</li>
+                <li class="Controls">Space - Activate Dmitri ( when available) </li><br>
+            </ul>
+
+            <div class="image_container">
+                <img src="sekil1.jpg" alt="" onclick="changeImage(this)">
+                <img src="sekil3.jpg" alt="" onclick="changeImage(this)">
+                <img src="sekil4.jpg" alt="" onclick="changeImage(this)">
+            </div>
+
+            <div class="image_viewer">
+
+                <img src="sekil1.jpg" alt="" class="big-image" width="625">
+
+            </div>
+
+            <h1 id="game">Game</h1>
+            <p style="color: white; font-size: large;">Enjoy :) <br><br> (Make screen larger for better experience)</p>
+
+            <div id="game-container" class="game-container">
+                <img src="" alt="">
+                <button onclick="runGame()" class="run-btn">Run Game ▶</button>
+            </div>
+
+        </article>
+
+
+
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+                var disqus_config = function () {
+                    this.page.url = "http://13.38.40.45";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = "home"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://bob-m3zpzly6wa.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+
+
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Made by Revan Ramil for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
