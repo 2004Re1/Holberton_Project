@@ -21,6 +21,8 @@
 <body class="works_on_smartphone">
 
     <header>
+
+       
         <a href="index.html" class="logo">
             <img src="https://apply.holbertonschool.com/holberton-logo.png" width="150px" style="margin: 20px;">
         </a>
@@ -55,11 +57,32 @@
 
 
 
-            <a href=#game>
+            <a href=#game  >
                 <button>Play Now</button>
             </a>
 
+            
+
         </nav>
+
+        <div style="display: flex; align-items: center; gap: 10px; flex-direction: row-reverse;" class="right">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="SNyjTmDK"></script>
+
+            <div class="fb-share-button" data-href="https://youtu.be/BbeeuzU5Qc8?si=g9ZMZTLJ_-bg6mzP" data-layout=""
+                data-size="">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyoutu.be%2FBbeeuzU5Qc8%3Fsi%3Dg9ZMZTLJ_-bg6mzP&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">
+                    Share
+                </a>
+            </div>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
 
 
 
@@ -106,13 +129,16 @@
 
             <div class="image_container">
                 <img src="sekil1.jpg" alt="" onclick="changeImage(this)">
-                <img src="sekil3.jpg" alt="" onclick="changeImage(this)">
+                <img src="sekil5.gif" alt="" onclick="changeImage(this)">
                 <img src="sekil4.jpg" alt="" onclick="changeImage(this)">
             </div>
 
             <div class="image_viewer">
 
-                <img src="sekil1.jpg" alt="" class="big-image" width="625">
+
+                <button class="remove_button"  onclick="toggleSSPreview()" id="button1">+</button>
+
+                <img src="sekil1.jpg" alt="" class="big-image" width="625" id="big1">
 
             </div>
 

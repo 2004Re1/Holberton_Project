@@ -165,12 +165,38 @@ html
 .run-btn {
     text-align: center;
     font-size: 10px;
-    font-weight: bold;
-    font-family: 'Saira';
+    font-weight: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: #056ecb;
     border: 1px solid rgba(255, 255, 255, 0.76);
     border-radius: 2px;
     padding: 8px 15px 8px 12px;
     transition: 0.12s;
+}
+
+
+.remove_button
+{
+     
+    font-size: xx-large;
+    text-align: center;
+    padding: 0%;
+    rotate: 45deg;
+    background-color: rgba(0, 0, 0, 0);
+
+    position: absolute;
+    right: 0%;
+    top: 0%;
+ 
+}
+
+.remove_button:hover{
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.image_viewer
+{
+    position: relative;
 }

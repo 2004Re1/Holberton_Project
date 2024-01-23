@@ -1,10 +1,21 @@
 document.addEventListener("DOMContentLoaded", main);
 
-function changeImage(image)
-{
-   var bigImage = document.querySelector(".big-image");
-   bigImage.src= image.src;
-   bigImage.parentElement.style.display="block";
+var ssPreview;
+var closeBtn;
+
+function main() {
+    ssPreview = document.getElementById("big1");
+    closeBtn = document.getElementById("button1");
+}
+
+
+function changeImage(image) {
+    var bigImage = document.querySelector(".big-image");
+    bigImage.src = image.src;
+    bigImage.parentElement.style.display = "block";
+
+    ssPreview.style.display = "block";
+    closeBtn.style.display = "block";
 }
 
 
@@ -28,3 +39,10 @@ function runGame() {
     window.location.href = "#gameFrame";
 }
 
+
+function toggleSSPreview() {
+
+    ssPreview.style.display = "none";
+    closeBtn.style.display = "none";
+
+}
